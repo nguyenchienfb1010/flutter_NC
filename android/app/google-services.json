@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "357662902446",
+    "project_id": "my-taxi-app-a06d5",
+    "storage_bucket": "my-taxi-app-a06d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:357662902446:android:4cfc8a2163baf9f514053f",
+        "android_client_info": {
+          "package_name": "quangchien.com.fl_uberapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "357662902446-a3ddh4vvdccupmbv58k0595ngjrshkr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL86dvbJb4WJ0gWb-XAcHQWwMHFmCd1ow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "357662902446-a3ddh4vvdccupmbv58k0595ngjrshkr4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
