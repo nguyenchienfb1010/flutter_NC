@@ -1,3 +1,4 @@
+import 'package:fl_uberapp/src/screens/payment.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:fl_uberapp/src/components/default_button.dart';
@@ -53,13 +54,9 @@ class CheckoutCard extends StatelessWidget {
                   child: SvgPicture.asset("assets/icons/receipt.svg"),
                 ),
                 Spacer(),
-                Text("Nhập mã giảm giá"),
+                Text("Thanh toán khi nhận hàng"),
                 const SizedBox(width: 10),
-                Icon(
-                  Icons.arrow_forward_ios,
-                  size: 12,
-                  color: kTextColor,
-                )
+
               ],
             ),
             SizedBox(height: getProportionateScreenHeight(20)),
@@ -71,7 +68,7 @@ class CheckoutCard extends StatelessWidget {
                     text: "Tổng tiền:\n",
                     children: [
                       TextSpan(
-                        text: "255.265 VND",
+                        text: "955.0 VND",
                         style: TextStyle(fontSize: 16, color: Colors.black),
                       ),
                     ],
@@ -80,8 +77,12 @@ class CheckoutCard extends StatelessWidget {
                 SizedBox(
                   width: getProportionateScreenWidth(190),
                   child: DefaultButton(
-                    text: "Thanh toán",
-                    press: () {},
+                    text: "Đặt hàng",
+                    press: () {
+                      Navigator.push(context,
+                          MaterialPageRoute(builder: (_) => PayMent()));
+
+                    },
                   ),
                 ),
               ],
